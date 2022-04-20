@@ -1,0 +1,130 @@
+* {
+  font-family: "Cormorant Garamond", serif;
+
+  text-decoration: none !important;
+}
+
+#btn {
+  padding: 20px;
+}
+
+.navbar-collapse {
+  border-bottom: 1px solid #000;
+}
+
+.navbar-toggler {
+  border-color: #fff !important;
+  position: absolute;
+  top: -85px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.border-top {
+  border-top: 1px solid #000 !important;
+}
+
+.icon-container {
+  margin: 10px;
+}
+
+* {
+  color: #000 !important;
+}
+.dropdown-toogle {
+  color: #000 !important;
+}
+
+@media (min-width: 992px) {
+  .button-back {
+    display: none;
+  }
+}
+
+.hover-purple:hover {
+  background: #a18feb !important;
+}
+.hover-purple {
+  border: none !important;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    font-size: 30px;
+    border-bottom: none;
+    height: 500px;
+    top: 0;
+    margin-top: 20px;
+  }
+
+  .navbar-collapse li {
+    margin-bottom: 75px;
+  }
+
+  .header {
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+  }
+
+  .img-fluid {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    top: -80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-toggler {
+    top: -75px;
+    left: -5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar-toggler {
+    top: -70px;
+    left: -10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-toggler {
+    left: -15px;
+    top: -65px;
+  }
+}
+
+@media (max-width: 280px) {
+  .navbar-toggler {
+    left: -20px;
+    top: -60px;
+  }
+}
+
+#photo img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#gallery img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#gallery h2 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 30px;
+}
