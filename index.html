@@ -25,19 +25,20 @@
 
   <body>
     <div class="container">
-      <header class="header">
+      <header id="header" class="header">
         <div class="text-center">
           <a class="blog-header-logo text-dark" href="index.html">
-            <img src="img/banner portafolio2.png" class="img-fluid" alt="" />
+            <img src="img/banner portafolio2.png" class="img" alt="" />
           </a>
         </div>
       </header>
-
       <div class="nav-scroller py-1 mb-2">
         <nav class="navbar navbar-expand-lg d-flex nav-fill navbar-light">
           <button
             class="navbar-toggler"
             type="button"
+            id="btn-collapsed"
+            onClick="setMenuFixed()"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
@@ -68,8 +69,12 @@
                 <li>
                   <a class="dropdown-item button-back" href="#">Volver</a>
                 </li>
-                <li><a class="dropdown-item" href="digital.html">Digital</a></li>
-                <li><a class="dropdown-item" href="october.html">Octubre</a></li>
+                <li>
+                  <a class="dropdown-item" href="digital.html">Digital</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="october.html">Octubre</a>
+                </li>
                 <li><a class="dropdown-item" href="sketch.html">Bocetos</a></li>
               </ul>
             </li>
@@ -87,12 +92,10 @@
       </div>
     </div>
 
-   
-
     <!--aca empieza el contenido -->
     <div class="container">
       <div class="text-center" id="imginicio">
-        <img src="img/Yo.jpg" class="img-fluid" alt="" />
+        <img src="img/Yo.jpg" class="img" alt="" />
       </div>
       <div class="text-center" id="btn">
         <button type="button" class="btn btn-outline-dark hover-purple">
@@ -171,5 +174,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
+    <script src="./index.js"></script>
   </body>
 </html>

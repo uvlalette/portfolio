@@ -13,9 +13,9 @@
 }
 
 .navbar-toggler {
-  border-color: #fff !important;
+  border-color: transparent !important;
   position: absolute;
-  top: -85px;
+  top: -95px;
 }
 
 .navbar-toggler:focus {
@@ -56,26 +56,41 @@ li {
 
 @media (max-width: 992px) {
   .navbar-collapse {
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: #fff;
     font-size: 30px;
     border-bottom: none;
-    height: 500px;
-    top: 0;
-    margin-top: 20px;
+    height: 100%;
+    top: 141px;
+    padding-top: 20px;
+    right: 5px;
   }
 
   .navbar-collapse li {
-    margin-bottom: 75px;
+    margin-bottom: 35px;
   }
 
   .header {
     padding-top: 10px;
     border-bottom: 1px solid #000;
+    background: #fff;
+    display: flex;
+    justify-content: center;
   }
 
-  .img-fluid {
+  .header-fixed {
+    position: fixed;
+    width: 100%;
+    right: 0px;
+  }
+
+  .btn-fixed {
+    position: fixed;
+    top: 50px;
+  }
+
+  .img {
     margin-bottom: 10px;
   }
 }
@@ -84,33 +99,98 @@ li {
   .navbar-toggler {
     top: -80px;
   }
+
+  .btn-fixed {
+    top: 37px;
+  }
+
+  .navbar-collapse {
+    top: 113px;
+  }
+
+  .img {
+    width: 500px;
+  }
+
+  .navbar-collapse li {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 500px) {
   .navbar-toggler {
-    top: -75px;
-    left: -5px;
+    top: -82px;
+  }
+
+  .btn-fixed {
+    top: 35px;
+  }
+
+  .img {
+    width: 470px;
+  }
+  .navbar-collapse {
+    top: 108px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .navbar-toggler {
     top: -70px;
     left: -10px;
+  }
+
+  .btn-fixed {
+    top: 25px;
+    left: 2px;
+  }
+
+  .img {
+    width: 380px;
+  }
+
+  .navbar-collapse {
+    top: 91px;
   }
 }
 
 @media (max-width: 380px) {
   .navbar-toggler {
-    left: -15px;
-    top: -65px;
+    left: -24px;
+    top: -63px;
+  }
+
+  .btn-fixed {
+    top: 14px;
+    left: -12px;
+  }
+
+  .img {
+    width: 285px;
+  }
+
+  .navbar-collapse {
+    top: 73px;
   }
 }
 
 @media (max-width: 280px) {
   .navbar-toggler {
-    left: -20px;
+    left: -25px;
     top: -60px;
+  }
+
+  .btn-fixed {
+    top: 11px;
+    left: -13px;
+  }
+
+  .img {
+    width: 250px;
+  }
+
+  .navbar-collapse {
+    top: 67px;
   }
 }
 
